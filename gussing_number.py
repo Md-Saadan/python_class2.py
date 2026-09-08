@@ -2,7 +2,7 @@ import random
 hidden_number=random.randint(1,100)
 score=100
 
-for i in range(5):
+for i in range(4):
     guess=int(input("Guessing a number"))
     if guess==hidden_number:
         print("You Won!")
