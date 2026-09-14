@@ -1,19 +1,19 @@
-#Task 1
+# Task 1
 for i in range(1,21):
     print(i)
 
-#Task 2
+# Task 2
 for i in range(1,51):
     if i%2==0:
         print(i)
 
-#Task 3
+# Task 3
 s=0
 for i in range(1,101):
     s=s+i
 print(s)
 
-#Task 4
+# Task 4
 num=int(input("Enter a number: "))
 if num>0:
     print("Its a Positive number")
@@ -61,7 +61,7 @@ for i in list:
         large=i
     print(large)
 
-# #Task 10
+# Task 10
 list=[10,30,70,40,20,60,50,90]
 smallest=list[0]
 for i in list:
@@ -93,14 +93,14 @@ if i==s:
 else:
     print("Number not found.")
 
-#Task 13
+# Task 13
 name=["Aadil","Qasim","Abdullah","Naeem","Aaquib","Khalid","Zahid","Aasim","Shafeeque","Waqqas","Aman","Imran","Ahmad"]
 print(name)
 for i in name:
     if i.startswith("A"):
         print(i)
 
-#Task 14
+# Task 14
 sentense=input("Enter snetence.")
 count=0
 a=sentense.split()
@@ -108,7 +108,7 @@ for i in a:
     count+=1
 print(count)
 
-# #Task 15
+# Task 15
 String=input("Enter String: ")
 Char=input("Enter Charachter to search: ")
 count=0
@@ -117,7 +117,7 @@ for i in String:
         count+=1
 print(count)
 
-#Task 16
+# Task 16
 numbers=[90,70,80,40,50,80,60,10,20,30,70,80,20]
 new_list=[]
 for i in numbers:
@@ -126,7 +126,7 @@ for i in numbers:
 print(numbers)
 print(new_list)
 
-#Task 17
+# Task 17
 number=[78,95,86,27,95,34,45]
 largest=number[0] 
 second=number[0]
@@ -140,7 +140,7 @@ print("Largest =",largest)
 print("Second largest =",second)
 
 
-#Task 18
+# Task 18
 for num in range(2, 101):    
     prime = True
     for i in range(2, num):        
@@ -163,7 +163,7 @@ print(numbers)
 print(pos)
 print(neg)
 
-#Task 20
+# Task 20
 marks=[93,87,89,59,86]
 total=0
 for i in marks:

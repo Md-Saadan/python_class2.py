@@ -28,7 +28,7 @@ elif total<450 and total>=350:
 elif total<350 and total>=200:
      print("elligible for BUMS")
 else:
-      print("not elligible")
+    print("not elligible")
 
 
      
